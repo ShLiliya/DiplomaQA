@@ -67,6 +67,10 @@ public class DashboardPage {
         successfulNotification.shouldHave(text(expectedText), Duration.ofSeconds(15)).shouldBe(visible);
     }
 
+    public void notSeeSuccessfulNotification(String expectedText) {
+        successfulNotification.shouldNotHave(text(expectedText));
+    }
+
     public void seeErrorNotification(String expectedText) {
         errorNotification.shouldHave(text(expectedText), Duration.ofSeconds(15)).shouldBe(visible);
     }

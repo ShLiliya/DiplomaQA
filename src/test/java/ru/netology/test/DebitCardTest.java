@@ -57,6 +57,7 @@ public class DebitCardTest {
         var cardInfo = DataHelper.getGenerateCheckObjectsDeclined();
         debitType.fillForm(cardInfo);
         debitType.seeErrorNotification(errorNotification);
+        debitType.notSeeSuccessfulNotification(successfulNotification);
         var number = cardInfo.getNumber();
         assertEquals(DataHelper.getVerifyStatus(number), SQLHelper.getStatusDebitCard());
     }
@@ -368,7 +369,7 @@ public class DebitCardTest {
     }
 
     @Test // Баг - 'Операция одобрена Банком.' вместо 'Неверный формат'
-    @DisplayName("Неверный формат' при вводе 1 буквы без пробела в поле 'Владелец'")
+    @DisplayName("Неверный формат' при вводе 1 буквы в поле 'Владелец'")
     void shouldErrorWhenInput1LetterInOwnerFieldDebitCard() {
         debitType.setCardNumberField(DataHelper.getGenerateCheckObjectsApproved().getNumber());
         debitType.setMonthField(getGenerateMonth());
@@ -382,7 +383,7 @@ public class DebitCardTest {
     }
 
     //Некорректный ввод CVC/CVV
-    @Test  // Баг - "Поле обязательно для заполнения" в поле 'Владелец' при "Неверный формат" в поле 'CVC/CVV'
+    @Test  // Баг - "Поле обязательно для заполнения" под полем 'Владелец' при "Неверный формат" под полем 'CVC/CVV'
     @DisplayName("Отсутвие сообщения об ошибке в поле 'Владелец' при возникновении ошибки в поле 'CVC/CVV'")
     void shouldErrorInOwnerFieldWhenErrorVisibleInCVCFieldDebitCard() {
         debitType.setCardNumberField(DataHelper.getGenerateCheckObjectsApproved().getNumber());

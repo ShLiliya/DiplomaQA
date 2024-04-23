@@ -42,7 +42,7 @@ public class CreditCartTest {
 
     @Test
     @DisplayName("'Операция одобрена Банком' при приобретении путевки одобренной банком кредитной картой" +
-            "с номером 4444 4444 4444 4441")
+            " с номером 4444 4444 4444 4441")
     void shouldSuccessfulWhenInputApprovedCreditCard() {
         var cardInfo = DataHelper.getGenerateCheckObjectsApproved();
         creditType.fillForm(cardInfo);
@@ -54,11 +54,12 @@ public class CreditCartTest {
 
     @Test  //Баг - покупка тура состоялась, но должна быть отклонена
     @DisplayName("'Ошибка! Банк отказал в проведении операции' при приобретении путевки отклоненной банком" +
-            "крединой картой с номером 4444 4444 4444 4442")
+            " крединой картой с номером 4444 4444 4444 4442")
     void shouldErrorWhenInputDeclancedCreditCard() {
         var cardInfo = DataHelper.getGenerateCheckObjectsDeclined();
         creditType.fillForm(cardInfo);
         creditType.seeErrorNotification(errorNotification);
+        creditType.notSeeSuccessfulNotification(successfulNotification);
         var number = cardInfo.getNumber();
         assertEquals(DataHelper.getVerifyStatus(number), SQLHelper.getStatusCreditCard());
     }
@@ -355,7 +356,7 @@ public class CreditCartTest {
     }
 
     @Test // Баг - 'Операция одобрена Банком.' вместо 'Неверный формат'
-    @DisplayName("Неверный формат' при вводе более 50 букв без пробела в поле 'Владелец'")
+    @DisplayName("Неверный формат' при вводе более 50 букв в поле 'Владелец'")
     void shouldErrorWhenInput51LettersInOwnerFieldCreditCard() {
         creditType.setCardNumberField(DataHelper.getGenerateCheckObjectsApproved().getNumber());
         creditType.setMonthField(getGenerateMonth());
@@ -383,14 +384,14 @@ public class CreditCartTest {
     }
 
     //Некорректный ввод CVC/CVV
-    @Test  // Баг - "Поле обязательно для заполнения" в поле 'Владелец' при "Неверный формат" в поле 'CVC/CVV'
-    @DisplayName("Отсутвие сообщения об ошибке в поле 'Владелец' при возникновении ошибки в поле 'CVC/CVV'")
+    @Test  // Баг - "Поле обязательно для заполнения" в поле 'Владелец' при отсутствии символов в поле 'CVC/CVV'
+    @DisplayName("Отсутвие сообщения об ошибке в поле 'Владелец' при отсутствии символов в поле 'CVC/CVV'")
     void shouldErrorInOwnerFieldWhenErrorVisibleInCVCFieldCreditCard() {
         creditType.setCardNumberField(DataHelper.getGenerateCheckObjectsApproved().getNumber());
         creditType.setMonthField(getGenerateMonth());
         creditType.setYearField(getGenerateYear());
         creditType.setNameOwnerField(getGenerateName());
-        creditType.setCvcField(getSymbols());
+        creditType.setCvcField("");
         creditType.buttonClick();
         creditType.seeErrorFormatNotification(errorFormat);
         creditType.notSeeObligatoryFieldNotification(obligatoryField);

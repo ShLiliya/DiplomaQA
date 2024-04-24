@@ -23,9 +23,6 @@ public class DashboardPage {
             "действия карты"));
     private SelenideElement obligatoryFieldNotification = $$("[class=input__sub]").find(exactText("Поле обязательно " +
             "для заполнения"));
-
-    private SelenideElement maxSymbolsLabel = $$("[class=input__sub]").find(exactText("Достигнуто " +
-            "максимальное количество символов"));
     private final SelenideElement successfulNotification = $(".notification_status_ok");
     private final SelenideElement errorNotification = $(".notification_status_error");
 

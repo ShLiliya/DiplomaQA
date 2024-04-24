@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.CreditCartTest" tests="35" skipped="0" failures="13" errors="0" timestamp="2024-04-23T07:40:41" hostname="DESKTOP-N2ESDM0" time="178.449">
+<testsuite name="ru.netology.test.CreditCartTest" tests="35" skipped="0" failures="13" errors="0" timestamp="2024-04-23T09:27:16" hostname="DESKTOP-N2ESDM0" time="179.288">
   <properties/>
-  <testcase name="'Неверный формат' при вводе менее чем 1 цифры в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="27.851"/>
-  <testcase name="'Поле обязательно для заполнения' при пустом поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="8.258">
-    <failure message="Element should not have text &quot;Неверный формат&quot; {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858076998.0.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858076998.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Неверный формат&quot; {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="'Неверный формат' при вводе менее чем 1 цифры в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="21.143"/>
+  <testcase name="'Поле обязательно для заполнения' при пустом поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="7.696">
+    <failure message="Element should not have text &quot;Неверный формат&quot; {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864465112.0.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864465112.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Неверный формат&quot; {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858076998.0.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858076998.0.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864465112.0.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864465112.0.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -112,11 +112,11 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="'Неверный формат' при вводе цифр в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="8.432">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858085887.1.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858085887.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="'Неверный формат' при вводе цифр в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="9.103">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864474333.1.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864474333.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Expected: text &quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858085887.1.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858085887.1.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864474333.1.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864474333.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -231,14 +231,14 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Нет доступа к вводу спецсимволов в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="2.975"/>
-  <testcase name="Нет доступа к вводу спецсимволов в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="3.147"/>
-  <testcase name="'Ошибка! Банк отказал в проведении операции' при приобретении путевки отклоненной банком крединой картой с номером 4444 4444 4444 4442" classname="ru.netology.test.CreditCartTest" time="18.786">
-    <failure message="Element should have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858110818.2.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858110818.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}
+  <testcase name="Нет доступа к вводу спецсимволов в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="2.735"/>
+  <testcase name="Нет доступа к вводу спецсимволов в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.501"/>
+  <testcase name="'Ошибка! Банк отказал в проведении операции' при приобретении путевки отклоненной банком крединой картой с номером 4444 4444 4444 4442" classname="ru.netology.test.CreditCartTest" time="17.751">
+    <failure message="Element should have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864497373.2.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864497373.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: text=&quot;&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858110818.2.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858110818.2.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864497373.2.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864497373.2.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -343,13 +343,13 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="'Поле обязательно для заполнения' при пустом поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="2.052"/>
-  <testcase name="Нет доступа к вводу более 2 цифр в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="0.692"/>
-  <testcase name="'Поле обязательно для заполнения' при отсутствии цифр в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="6.468">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858120288.3.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858120288.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="'Поле обязательно для заполнения' при пустом поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="2.234"/>
+  <testcase name="Нет доступа к вводу более 2 цифр в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="0.637"/>
+  <testcase name="'Поле обязательно для заполнения' при отсутствии цифр в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="6.362">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864506629.3.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864506629.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: text &quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858120288.3.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858120288.3.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864506629.3.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864506629.3.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -464,15 +464,15 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="'Неверный формат' при вводе 15 цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.832"/>
-  <testcase name="Нет доступа к вводу 17 цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="0.747"/>
-  <testcase name="'Неверный формат' при вводе 1 цифры в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.388"/>
-  <testcase name="'Неверный формат' при вводе одной цифры в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="1.893"/>
-  <testcase name="'Поле обязательно для заполнения' при отсутствии номера месяца в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="6.152">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858134290.4.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858134290.4.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="'Неверный формат' при вводе 15 цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.565"/>
+  <testcase name="Нет доступа к вводу 17 цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="0.822"/>
+  <testcase name="'Неверный формат' при вводе 1 цифры в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.067"/>
+  <testcase name="'Неверный формат' при вводе одной цифры в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.062"/>
+  <testcase name="'Поле обязательно для заполнения' при отсутствии номера месяца в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="6.57">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864520859.4.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864520859.4.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: text &quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858134290.4.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858134290.4.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864520859.4.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864520859.4.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -587,16 +587,16 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Нет доступа к вводу спецсимволов в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.206"/>
-  <testcase name="'Неверно указан срок действия карты' при вводе в поле 'Год' года на 5 лет позже текущего" classname="ru.netology.test.CreditCartTest" time="1.969"/>
-  <testcase name="'Операция одобрена Банком' при приобретении путевки одобренной банком кредитной картой с номером 4444 4444 4444 4441" classname="ru.netology.test.CreditCartTest" time="4.596"/>
-  <testcase name="'Истёк срок действия карты' при вводе в поле 'Год' года на 1 год раньше текущего" classname="ru.netology.test.CreditCartTest" time="2.278"/>
-  <testcase name="'Неверный формат' при вводе в поле 'Год' 1 цифры" classname="ru.netology.test.CreditCartTest" time="1.939"/>
-  <testcase name="'Истёк срок действия карты' при вводе в поле 'Год' текущий год, в поле 'Месяц' на 1 месяц раньше текущего" classname="ru.netology.test.CreditCartTest" time="6.369">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)}&#13;&#10;Expected: text &quot;Истёк срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858153609.5.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858153609.5.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)}
+  <testcase name="Нет доступа к вводу спецсимволов в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.322"/>
+  <testcase name="'Неверно указан срок действия карты' при вводе в поле 'Год' года на 5 лет позже текущего" classname="ru.netology.test.CreditCartTest" time="1.99"/>
+  <testcase name="'Операция одобрена Банком' при приобретении путевки одобренной банком кредитной картой с номером 4444 4444 4444 4441" classname="ru.netology.test.CreditCartTest" time="10.87"/>
+  <testcase name="'Истёк срок действия карты' при вводе в поле 'Год' года на 1 год раньше текущего" classname="ru.netology.test.CreditCartTest" time="2.617"/>
+  <testcase name="'Неверный формат' при вводе в поле 'Год' 1 цифры" classname="ru.netology.test.CreditCartTest" time="2.249"/>
+  <testcase name="'Истёк срок действия карты' при вводе в поле 'Год' текущий год, в поле 'Месяц' на 1 месяц раньше текущего" classname="ru.netology.test.CreditCartTest" time="6.354">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)}&#13;&#10;Expected: text &quot;Истёк срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864547250.5.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864547250.5.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)}
 Expected: text &quot;Истёк срок действия карты&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858153609.5.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858153609.5.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864547250.5.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864547250.5.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Истёк срок действия карты&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -711,12 +711,12 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Отсутвие сообщения об ошибке в поле 'Владелец' при отсутствии символов в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="6.474">
-    <failure message="Element should not have text &quot;Поле обязательно для заполнения&quot; {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858160216.6.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858160216.6.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Поле обязательно для заполнения&quot; {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="Отсутвие сообщения об ошибке в поле 'Владелец' при отсутствии символов в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="6.783">
+    <failure message="Element should not have text &quot;Поле обязательно для заполнения&quot; {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864554063.6.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864554063.6.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Поле обязательно для заполнения&quot; {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'
 Actual value: text=&quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858160216.6.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858160216.6.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864554063.6.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864554063.6.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -821,15 +821,15 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Нет доступа к вводу букв в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="2.663"/>
-  <testcase name="Нет доступа к вводу букв в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.515"/>
-  <testcase name="Нет доступа к вводу букв в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.032"/>
-  <testcase name="Нет доступа к вводу более 3 цифр в поле CVC/CVV" classname="ru.netology.test.CreditCartTest" time="0.634"/>
-  <testcase name="Неверный формат' при вводе 1 буквы без пробела в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.355">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858174333.7.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858174333.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="Нет доступа к вводу букв в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="2.423"/>
+  <testcase name="Нет доступа к вводу букв в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.451"/>
+  <testcase name="Нет доступа к вводу букв в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="2.196"/>
+  <testcase name="Нет доступа к вводу более 3 цифр в поле CVC/CVV" classname="ru.netology.test.CreditCartTest" time="0.672"/>
+  <testcase name="Неверный формат' при вводе 1 буквы без пробела в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.358">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864567980.7.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864567980.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Expected: text &quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858174333.7.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858174333.7.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864567980.7.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864567980.7.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -944,12 +944,12 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Нет доступа к вводу более 2 цифр в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="0.597"/>
-  <testcase name="'Поле обязательно для заполнения' при отсутствии цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="6.135">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858181037.8.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858181037.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="Нет доступа к вводу более 2 цифр в поле 'Год'" classname="ru.netology.test.CreditCartTest" time="0.869"/>
+  <testcase name="'Поле обязательно для заполнения' при отсутствии цифр в поле 'Номер карты'" classname="ru.netology.test.CreditCartTest" time="6.315">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#13;&#10;Expected: text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864575308.8.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864575308.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: text &quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858181037.8.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858181037.8.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864575308.8.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864575308.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1064,13 +1064,13 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Неверный срок действия карты при вводе числа больше 12 в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.356"/>
-  <testcase name="Нет доступа к вводу букв в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="2.338"/>
-  <testcase name="'Неверный формат' при вводе спецсимволов в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.556">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858192357.9.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858192357.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="Неверный срок действия карты при вводе числа больше 12 в поле 'Месяц'" classname="ru.netology.test.CreditCartTest" time="2.371"/>
+  <testcase name="Нет доступа к вводу букв в поле 'CVC/CVV'" classname="ru.netology.test.CreditCartTest" time="2.632"/>
+  <testcase name="'Неверный формат' при вводе спецсимволов в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.356">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864586666.9.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864586666.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Expected: text &quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858192357.9.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858192357.9.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864586666.9.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864586666.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1185,11 +1185,11 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="'Неверный формат' при вводе букв кириллицей в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.977">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858199349.10.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858199349.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="'Неверный формат' при вводе букв кириллицей в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="6.779">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864593480.10.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864593480.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Expected: text &quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858199349.10.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858199349.10.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864593480.10.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864593480.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1304,14 +1304,14 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="'Успешно. Операция одобрена банком' при отправке заявки в банк с помощью новой карты" classname="ru.netology.test.CreditCartTest" time="10.979">
-    <failure message="Element should not have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_visible notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot;&gt;Ошибка&#10;Ошибка! Банк отказал в проведении операции.&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;Ошибка&#10;Ошибка! Банк отказал в проведении операции.&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858210389.11.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858210389.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}
+  <testcase name="'Успешно. Операция одобрена банком' при отправке заявки в банк с помощью новой карты" classname="ru.netology.test.CreditCartTest" time="12.9">
+    <failure message="Element should not have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_visible notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot;&gt;Ошибка&#10;Ошибка! Банк отказал в проведении операции.&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;Ошибка&#10;Ошибка! Банк отказал в проведении операции.&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864606321.11.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864606321.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not have text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_visible notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot;&gt;Ошибка
 Ошибка! Банк отказал в проведении операции.&lt;/div&gt;'
 Actual value: text=&quot;Ошибка
 Ошибка! Банк отказал в проведении операции.&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858210389.11.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858210389.11.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864606321.11.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864606321.11.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1416,11 +1416,11 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Неверный формат' при вводе более 50 букв в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="7.488">
-    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858217856.12.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858217856.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="Неверный формат' при вводе более 50 букв в поле 'Владелец'" classname="ru.netology.test.CreditCartTest" time="7.125">
+    <failure message="Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}&#13;&#10;Expected: text &quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864613529.12.png&#13;&#10;Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864613529.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class=input__sub].findBy(exact text &quot;Неверный формат&quot;)}
 Expected: text &quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858217856.12.png
-Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713858217856.12.html
+Screenshot: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864613529.12.png
+Page source: file:/C:/Users/lili-/IdeaProjects/Reschedule_date/DiplomaQA/build/reports/tests/1713864613529.12.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element [class=input__sub].findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1535,11 +1535,11 @@ Driver info: driver.version: unknown
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Нет доступа к вводу спецсимволов в поле CVC/CVV" classname="ru.netology.test.CreditCartTest" time="2.07"/>
+  <testcase name="Нет доступа к вводу спецсимволов в поле CVC/CVV" classname="ru.netology.test.CreditCartTest" time="2.169"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[апр. 23, 2024 2:41:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[апр. 23, 2024 4:27:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 124
-апр. 23, 2024 2:41:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+апр. 23, 2024 4:27:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 124.0.6367.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
